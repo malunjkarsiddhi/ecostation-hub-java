@@ -55,7 +55,7 @@ DAO (Data Access Object) layer for database operations
 Separate UI windows/panels for login, register, dashboard, stations, and analytics
 
 Project Structure
-text
+
 eco-station-hub-java/
 ├─ src/
 │  ├─ app/
