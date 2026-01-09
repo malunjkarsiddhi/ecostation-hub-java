@@ -1,4 +1,3 @@
-Eco‑Station Management Hub (Java)
 Eco‑Station Management Hub is a desktop dashboard application built with Java Swing that helps visualize and manage an EV charging network. It provides an admin‑style interface with live station metrics, energy and revenue analytics, and user authentication.
 
 Features
