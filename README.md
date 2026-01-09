@@ -54,28 +54,6 @@ DAO (Data Access Object) layer for database operations
 
 Separate UI windows/panels for login, register, dashboard, stations, and analytics
 
-Project Structure
-
-eco-station-hub-java/
-├─ src/
-│  ├─ app/
-│  │  └─ Main.java               # Entry point
-│  ├─ dao/
-│  │  ├─ DBUtil.java             # Database connection helper
-│  │  ├─ UserDAO.java            # User auth (login/register)
-│  │  └─ StationDAO.java         # Station CRUD + analytics queries
-│  ├─ model/
-│  │  └─ Station.java            # Station entity class
-│  └─ ui/
-│     ├─ LoginWindow.java        # Login screen
-│     ├─ RegisterWindow.java     # Registration screen
-│     ├─ DashboardWindow.java    # Main dashboard + chart
-│     ├─ StationsPanel.java      # Stations management panel
-│     └─ AnalyticsPanel.java     # Analytics panel
-└─ lib/
-   └─ mysql-connector-*.jar      # JDBC driver (add correct version)
-You can adjust names if your folders differ.
-
 Database Setup
 Create a MySQL database, for example:
 
